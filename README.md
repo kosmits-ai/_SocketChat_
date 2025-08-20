@@ -6,21 +6,21 @@ It combines **sockets**, **threading**, and a **JSON-based communication protoco
 ---
 
 ##  Features
--  **Account system**  
+### Account system  
   - Create accounts with **bcrypt-hashed passwords**  
   - Login with retry limits (`MAX_ATTEMPTS`)  
 -  **End-to-end encryption**  
   - All messages encrypted with **Fernet symmetric encryption**  
--  **Chat commands**  
+### Chat commands 
   - `/createaccount` – Register a new user  
   - `/login` – Authenticate existing user  
   - `/dm <user> <message>` – Send private messages  
   - `/users` – List all online users  
   - `/help` – Show available commands  
   - `/quit` – Leave the chat  
--  **Threaded architecture**  
+### Threaded architecture
   - Separate threads for **sending** and **receiving** (non-blocking chat)  
--  **User experience improvements**  
+### User experience improvements 
   - Colored CLI output with `colorama`  
   - Structured error handling  
 
