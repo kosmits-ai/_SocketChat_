@@ -45,3 +45,9 @@ cd SocketChat
 python server.py    #In one terminal window
 python client.py    #In different terminal windows, one for each client.
 ```
+
+##  Demo
+
+Here’s a short demo of **SocketChat** in action:
+
+![SocketChat Demo](media/demo.gif)
